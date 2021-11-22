@@ -4,4 +4,4 @@
 def summation(data):
     return sum(data)
 def multiply(x,y):
-    retrun x*y
+    return x*y
