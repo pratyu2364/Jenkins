@@ -18,7 +18,7 @@ class TestSum(unittest.TestCase):
         """
         x = 20
         y = 40
-        result = summation(x,y)
+        result = multiply(x,y)
         self.assertEqual(result, 800)
 
 if __name__ == '__main__':
