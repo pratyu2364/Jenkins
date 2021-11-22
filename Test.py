@@ -12,6 +12,14 @@ class TestSum(unittest.TestCase):
         data = [23, 32]
         result = summation(data)
         self.assertEqual(result, 55)
+    def test_list_int(self):
+        """
+        Test case to add two numbers
+        """
+        x = 20
+        y = 40
+        result = summation(x,y)
+        self.assertEqual(result, 800)
 
 if __name__ == '__main__':
     unittest.main()
