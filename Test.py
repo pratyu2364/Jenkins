@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         """
         data = [23, 31]
         result = summation(data)
-        self.assertEqual(result, 55)
+        self.assertEqual(result, 54)
         x = 20
         y = 40
         result = multiply(x,y)
