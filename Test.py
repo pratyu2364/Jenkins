@@ -15,8 +15,16 @@ class TestSum(unittest.TestCase):
         x = 20
         y = 40
         result = multiply(x,y)
-        self.assertEqual(result, 700)
+        self.assertEqual(result, 800)
         print("Test 2 completed")
+        x = 0
+        y = 451
+        result = multiply(x,y)
+        self.assertEqual(result, 0)
+        x = 12
+        y = 12
+        result = multiply(x,y)
+        self.assertEqual(result, 144)
 
 
 if __name__ == '__main__':
