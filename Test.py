@@ -26,7 +26,7 @@ class TestSum(unittest.TestCase):
         result = multiply(6,5)
         self.assertEqual(result, 30)
         result = multiply(5,11)
-        self.assertEqual(result, 45)
+        self.assertEqual(result, 55)
 
 
 if __name__ == '__main__':
